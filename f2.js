@@ -6,4 +6,4 @@ document.getElementById("c").innerHTML = number1 ** number1;
 document.getElementById("d").innerHTML = number1 ** number2;
 document.getElementById("e").innerHTML = 2*number1*Math.PI;
 document.getElementById("f").innerHTML = number2**number2*Math.PI;
-document.getElementById("g").innerHTML = number1**2+number2**2;
+document.getElementById("g").innerHTML = Math.sqrt(number1**2+number2**2);
